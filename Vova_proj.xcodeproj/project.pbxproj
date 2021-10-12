@@ -13,6 +13,8 @@
 		840951FE2715515C00327573 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840951FC2715515C00327573 /* Main.storyboard */; };
 		840952002715516600327573 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840951FF2715516600327573 /* Assets.xcassets */; };
 		840952032715516600327573 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840952012715516600327573 /* LaunchScreen.storyboard */; };
+		8409521A271552E700327573 /* Anna3Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84095219271552E700327573 /* Anna3Storyboard.storyboard */; };
+		8409521D271552F100327573 /* Anna3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8409521C271552F100327573 /* Anna3ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		840951FF2715516600327573 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		840952022715516600327573 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		840952042715516600327573 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84095219271552E700327573 /* Anna3Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Anna3Storyboard.storyboard; sourceTree = "<group>"; };
+		8409521C271552F100327573 /* Anna3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anna3ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		840951F52715515C00327573 /* Vova_proj */ = {
 			isa = PBXGroup;
 			children = (
+				84095219271552E700327573 /* Anna3Storyboard.storyboard */,
+				8409521C271552F100327573 /* Anna3ViewController.swift */,
 				840951F62715515C00327573 /* AppDelegate.swift */,
 				840951F82715515C00327573 /* SceneDelegate.swift */,
 				840951FA2715515C00327573 /* ViewController.swift */,
@@ -127,6 +133,7 @@
 				840952032715516600327573 /* LaunchScreen.storyboard in Resources */,
 				840952002715516600327573 /* Assets.xcassets in Resources */,
 				840951FE2715515C00327573 /* Main.storyboard in Resources */,
+				8409521A271552E700327573 /* Anna3Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8409521D271552F100327573 /* Anna3ViewController.swift in Sources */,
 				840951FB2715515C00327573 /* ViewController.swift in Sources */,
 				840951F72715515C00327573 /* AppDelegate.swift in Sources */,
 				840951F92715515C00327573 /* SceneDelegate.swift in Sources */,
